@@ -1,0 +1,575 @@
+body
+{
+    font-family: 'Segoe UI';
+}
+.darkmode
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    height: 100vh;
+    position: relative;
+}
+#section1
+{
+    
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.5) ;
+}
+#section1 .headerContent
+{
+    height: 75%;
+}
+
+#section1 .headerContent h1
+{
+    font-size: 500%;
+    line-height: 80px;
+}
+.card-footer .footerIco{
+    width: 30%;
+}
+@media screen and (max-width:920px)
+{
+    #section1 .headerContent h1
+    {
+        font-size: 170%;
+    }
+    #section5 .section5part2 .blogs .blog .card .card-footer .footerLink a{
+        width: 85% !important;
+    }
+    #section6 h3{
+        font-size: 37px !important;
+    }
+    .conatact{
+        margin-bottom: 2rem !important
+    }
+    #section1 .headerContent h1{
+        
+        line-height: 36px;
+    }
+}
+#section1 nav
+{
+    background-color: rgba(2, 1, 1, 0.3);
+    z-index: 99999999999999999;
+}
+#section1 nav li a::after
+{
+    content:"";
+    display: block;
+    background-color: white;
+    width:0;
+    height: 3px;
+    transition: 1s;
+    margin: auto;
+}
+#section1 nav li:hover a::after
+{
+    width:40px;
+}
+#section1 nav li
+{
+    margin:0 10px;
+    
+}
+#section1 nav .logo
+{
+    font-size: 26px;
+    line-height: 38px;
+}
+
+
+@keyframes typing {
+    0% {width: 0%;content :"Applications";}
+    20% { width: 100%;content :"Applications" }
+    40% {width: 0%;content :"Applications";}
+    60% { width: 0%;content :"websites" }
+    80% {width: 100%;content :"websites";}
+    100% {width: 0%;content :"websites";}
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: white; 
+    }
+}
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.animated::before {
+    content : "";
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 10s infinite, blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid white;
+    box-sizing: border-box;
+}
+    
+
+
+
+#section2  .title
+{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color:#1e1e1e
+}
+#section2 .about h2
+{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color:#1e1e1e
+}
+#section2 .about p
+{
+    font-size: 19px;
+    font-weight: 300;
+    color:#4e4e4e;
+    line-height: 30px;
+}
+
+#section2 .progress
+{
+    height: 3%;
+}
+#section2 .progress .staticText span
+{
+    line-height: 24px;
+    color:#4e4e4e;
+}
+#section2 .about h2::after
+{
+    content:"";
+    display: block;
+    background-color: #0078ff;
+    width: 22%;
+    height: 0.80%;
+    margin-left:0px;
+    margin-top: 1.5%;
+    margin-bottom: 6%;
+}
+#section2 ,#section3 .section3Part1
+{
+    background-color: #f5f5f5;
+   
+}
+
+#section3 .service .ico span
+{
+    z-index: 2;
+    font-size: 600%;
+    color: #0078ff;
+}
+#section3 .service .ico i
+{
+    position: absolute;
+    top: 35%;
+    left: 34%;
+    z-index: 1;
+    font-size: 30%;
+    color:#000;
+    font-weight: bolder;
+}
+#section3 h2
+{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #1e1e1e;
+}
+#section3  .mainP
+{
+    line-height: 50px;
+}
+
+#section3 .service .content h3      
+{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    color:#1e1e1e;
+}
+#section3  p
+{
+    line-height: 24px;
+    color:#4e4e4e;
+}
+#section3 .service:hover span
+{
+    background-color: #0078ff;
+    box-shadow: 0 0 11px 5px #0078ff;
+    transition: 0.4s;
+}
+#section3 .service:hover span i
+{
+    color: white;
+}
+#section3 .services .serviceContainer .mobile
+{
+    left:40%
+}
+#section3 .serviceStatistics .ico span
+{
+    z-index: 2;
+    font-size: 450%;
+    color: #cde1f8;
+}
+#section3 .serviceStatistics .ico i
+{
+    position: absolute;
+    top: 35%;
+    left: 34.5%;
+    z-index: 1;
+    font-size: 30%;
+    color:#fff;
+    font-weight: bolder;
+}
+#section3 .serviceStatistics h4
+{
+    font-size: 200%;
+    line-height: 48px;
+}
+#section3 .serviceStatistics .challenges .challenge .user i
+{
+    left:33.9%
+}
+#section3 
+{
+    background-image: url(../images/post-3.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#section3 .serviceStatistics .mode
+{
+    background-color:rgba(5,88,183,0.85 );
+}
+
+#section4 .section4part1_2 .workContainer
+{
+    width:33.333%;
+}
+
+#section4 .work .ico a
+{
+    z-index: 2;
+    font-size: 250%;
+    font-weight: 400;
+    color:#0078ff;
+    line-height: 40px;
+}
+#section4 .work .ico a i
+{
+    position: absolute;
+    top: 4%;
+    left: 28%;
+    z-index: 1;
+    font-size: 50%;
+    color:#0078ff;
+    line-height: 40px;
+}
+#section4 .section4Part1_2 .work .workText h3
+{
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 500;
+    color:#1e1e1e;
+}
+#section4 .section4Part1_2 .work .workText span
+{
+    line-height: 19px;
+    font-size: 13px;
+    color:#4e4e4e;
+}
+#section4 .section4Part1_2 .work .workText .webDesign
+{
+    color:#0078ff;
+}
+#section4 .section4Part1_2 .work img
+{
+    transition: transform 0.5s;
+}
+#section4 .section4part1 .work:hover img
+{
+    transform: scale(1.5);
+}
+#section4 .section4part1
+{
+    background-color: #f5f5f5;
+}
+#section4 .section4part2 .slideshow h3
+{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 34px;
+}
+#section4 .section4part2 .slideshow p
+{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+#section4 ,#section6
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#section4 .section4part2 .slideshow .carousel-inner span
+{
+    z-index: 2;
+    font-size: 350%;
+    color: #fff;
+    background-color: #fff;
+    border: none;
+}
+#section4 .section4part2 .slideshow .carousel-inner span i
+{
+    position: absolute;
+    top: 35%;
+    left: 34.5%;
+    z-index: 1;
+    font-size: 30%;
+    color:#000;
+}
+
+#section4 .section4part2
+{
+    background-color:rgba(5,88,183,0.85 );
+}
+#section4 .section4part2 .slideshow .carousel-indicators li
+{
+    width:5%;
+    height: 7px;
+}
+
+#section5 .section5part2 .blogs .blog .card-header span
+{
+    position: absolute;
+    top:100%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding:10px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #0078ff;
+    color:white;
+    font-size: 11px;
+    font-weight: 500;
+
+}
+#section5 .section5part2 .blogs .blog .card .card-title a
+{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color:#000;
+    transition: 0.5s;
+}
+#section5 .section5part2 .blogs .blog .card .card-title a:hover
+{
+    color: #0078ff;
+}
+#section5 .section5part2 .blogs .blog .card .card-footer .footerLink a
+{
+    color:#000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#section5 .section5part2 .blogs .blog .card .card-footer .footerLink a:hover
+{
+    color: #0078ff;
+}
+#section5 .section5part2 .blogs .blog .card .card-footer .footerLink 
+{
+    width:60%;
+}
+#section5 .section5part2 .blogs .blog .card .card-footer .footerLink:hover
+{
+    color:#0078ff;
+}
+#section5 .section5part2 .blogs .blog .card .card-footer .footerLink .img
+{
+    width: 20%;
+}
+#section5 .section5part1 h3
+{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+#section5 .section5part1 p
+{
+    color:#4e4e4e;
+}
+#section5  .mainP::after,#section4  .mainP::after,#section3  .mainP::after
+{
+    content:"";
+    display: block;
+    background-color: #0078ff;
+    width: 5%;
+    height: 0.85%;
+    margin: auto;
+    margin-top:2%;
+    
+    
+}
+
+#section5
+{
+    background-color: rgb(245,245,245);
+}
+#section6 h3
+{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #1e1e1e;
+}
+#section6 .touch
+{
+    line-height: 32px;
+    color:#4e4e4e;
+}
+#section6 p
+{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#section6 h3::after
+{
+    content:"";
+    display: block;
+    background-color: #0078ff;
+    width: 20%;
+    height: 1%;
+    margin-top:2%;
+    margin-left: 1%;
+}
+@media screen and (min-width:992px)
+{
+    .footerLink{
+        width : 92%!important;
+    }
+}
+@media screen and (max-width:992px)
+{
+    #section6 h3::after
+    {
+        margin: auto;
+        margin-top: 3%;
+        width:30%
+    }
+    .footerLink{
+        width : 92%!important;
+    }
+    #section3 .mainP{
+        padding:0 40px !important;
+        line-height: 20px !important;
+    }
+    
+}
+#section6 .sendingForm button
+{
+    border-radius:5rem;
+    background-color: #0078ff;
+    color: white;
+    transition: 0.4s;
+
+}
+#section6 .sendingForm button:hover
+{
+    box-shadow: 0 0 3px 4px #0078ff;
+}
+
+#section6 .touch .contact .ico span
+{
+    z-index: 2;
+    font-size: 300%;
+    color: #0078ff
+}
+#section6 .touch .contact .ico i
+{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    z-index: 1;
+    font-size: 35%;
+    color:#000;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+
+
+#section6 .touch .contact .ico
+{
+    transition: 0.3s;
+}
+#section6 .touch .contact .ico:hover
+{
+    background-color: #0078ff;
+    box-shadow: 0 0 5px 3px #0078ff;
+    transform: scale(0.8);
+
+}
+#section6 .touch .contact .ico:hover i
+{
+    font-size: 50%;
+    top:33%
+}
+#section6 .msg_touch
+{
+    background-color: white;
+}
+#section6 .sectionMode
+{
+    background-color:rgba(5,88,183,0.8 );
+}
+
+footer
+{
+    background-color: #0062D3;
+}
+footer .footerIco span
+{
+    z-index: 2;
+    font-size: 250%;
+    color: #0078ff;
+    background-color: #0078ff;
+}
+footer .footerIco i
+{
+    position: absolute;
+    top: 25%;
+    left: 31%;
+    z-index: 1;
+    font-size: 40%;
+    color:#fff
+}
+
+footer .footerIco
+{
+    position: fixed;
+    right: 1%;
+    top:90%;
+}
